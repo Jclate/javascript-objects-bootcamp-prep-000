@@ -4,7 +4,6 @@ playlist[artist] = song;
 return playlist;
 }
 function removeFromPlaylist(playlist, artist) {
-  var upplaylist = Object.assign({}, {['artist'] : 'song'})
-  delete upplaylist.playlist;
-  return upplaylist
+delete playlist.artist
+return playlist;
 }
