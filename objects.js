@@ -5,6 +5,6 @@ return playlist;
 }
 function removeFromPlaylist(playlist, artist) {
   var upplaylist = {['artist'] : 'song'}
-  delete playlist.upplaylist
+  delete playlist.upplaylist;
   return playlist
 }
