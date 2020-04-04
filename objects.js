@@ -4,6 +4,7 @@ playlist[artist] = song;
 return playlist;
 }
 function removeFromPlaylist(playlist, artist) {
-delete playlist.artist;
-playlist
+  var upplaylist = {[artist]}
+  delete playlist.upplaylist
+  return playlist
 }
